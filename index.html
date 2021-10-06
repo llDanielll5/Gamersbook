@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gamersbook - Social platform for gamers</title>
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-----------Google fonts---------->
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> -->
+        <!---------Google fonts end---------->
+
+        <!--------Font Awesome--------->
+        <script src="https://kit.fontawesome.com/8fcd2c2df8.js" crossorigin="anonymous"></script>
+        <!--------Font Awesome end----------->
+
+
+    </head>
+    <body>
+
+        <nav>
+            <div class="nav-left">
+                <a href="index.html"><img src="images/logoDan2.png" alt="SocialBook" class="logo"></a>
+                <ul>
+                    <li><img src="images/notification.png" alt="Noticias"></li>
+                    <li><img src="images/inbox.png" alt="Caixa de Mensagem"></li>
+                    <li><img src="images/video.png" alt="Videos"></li>
+                </ul>
+            </div><!--nav-left-->
+
+            <div class="nav-right">
+
+                <div class="search-box">
+                    <img src="images/search.png">
+                    <input type="text" placeholder="Pesquisar algo..">
+                </div><!--search-box-->
+                <div id="userIcon" class="nav-user-icon online">
+                    <img src="images/profile-pic.jpg" >
+                </div><!--nav-user-icon-->
+            </div><!--nav-right-->
+
+            <!---------------- Settings-Menu ------------------->
+            <div class="settings-menu">
+
+                <div id="dark-btn">
+                    <span></span>
+                </div><!--#dark-btn-->
+
+                <div class="settings-menu-inner">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg">
+                        <div>
+                            <p>Daniel Mota</p>
+                            <a href="#">Ver seu perfil</a>
+                        </div>
+                    </div><!--user-profile-->
+                    <hr>
+                    <div class="user-profile">
+                        <img src="images/feedback.png">
+                        <div>
+                            <p>Dar Feedback</p>
+                            <a href="#">Ajude-nos a implementar o novo estilo.</a>
+                        </div>
+                    </div><!--user-profile-->
+                    <hr>
+                    <div class="settings-links">
+                        <img src="images/setting.png" class="settings-icon">
+                        <a href="#"><img src="images/arrow.png" width="10px">Opções & Privacidade</a>
+                    </div><!--setting-links-->
+                    <div class="settings-links">
+                        <img src="images/help.png" class="settings-icon">
+                        <a href="#"><img src="images/arrow.png" width="10px">Ajuda & Suporte</a>
+                    </div><!--setting-links-->
+                    <div class="settings-links">
+                        <img src="images/display.png" class="settings-icon">
+                        <a href="#"><img src="images/arrow.png" width="10px">Tela & Acessibilidade</a>
+                    </div><!--setting-links-->
+                    <div class="settings-links">
+                        <img src="images/logout.png" class="settings-icon">
+                        <a href="#"><img src="images/arrow.png" width="10px">Sair</a>
+                    </div><!--setting-links-->
+                </div><!--settings-menu-inner-->
+            </div><!--settings-menu-->
+        </nav>
+
+        <div class="container">
+            <!----------------left sidebar------------------->
+            <div class="left-sidebar">
+                <div class="imp-links">
+                    <a href="#"><img src="images/news.png" alt="Noticias"> Noticias Atuais</a>
+                    <a href="#"><img src="images/friends.png"> Amigos</a>
+                    <a href="#"><img src="images/group.png"> Grupos/Comunidade</a>
+                    <a href="#"><img src="images/marketplace.png"> Marketplace</a>
+                    <a href="#"><img src="images/watch.png"> Assistir</a>
+                    <a href="#">Ver mais</a>
+                </div><!--imp-links-->
+                <div class="shortcut-links">
+                    <p> Seus Atalhos</p>
+                    <a href="#"><img src="images/shortcut-1.png"> Web Developers</a>
+                    <a href="#"><img src="images/shortcut-2.png"> Web Design</a>
+                    <a href="#"><img src="images/shortcut-3.png"> Game Developer</a>
+                    <a href="#"><img src="images/shortcut-4.png"> Full Stack Development</a>
+                </div><!--shortcut-links-->
+            </div><!--left-sidebar end-->
+
+            <!----------------main-content-------------------->
+            <div class="main-content">
+
+                <div class="story-gallery">
+                    <div class="story story1">
+                        <img src="images/upload.png">
+                        <p>Postar</p>
+                    </div><!--story-->
+                    <div class="story story2">
+                        <a href="profile.html"><img src="images/member-4.png"></a>
+                        <p>Fred Moreno</p>
+                    </div><!--story-->
+                    <div class="story story3">
+                        <a href="profileTere.html"><img src="images/member-6.png"></a>
+                        <p>Terezina Piaui</p>
+                    </div><!--story-->
+                    <div class="story story4">
+                        <img src="images/member-7.png">
+                        <p>Will Quetá</p>
+                    </div><!--story-->
+                    <div class="story story5">
+                        <img src="images/member-8.png">
+                        <p>Maria João</p>
+                    </div><!--story-->
+                </div><!--story-gallery-->
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg">
+                        <div>
+                            <p>Daniel Mota</p>
+                            <small>Público<i class="fas fa-sort-down"></i></small>
+                        </div>
+                    </div><!--user-profile-->
+
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="O que está pensando?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png"> Video Ao Vivo</a>
+                            <a href="#"><img src="images/photo.png"> Fotos/Video</a>
+                            <a href="#"><img src="images/feeling.png"> Emoções/Atividades</a>
+                        </div><!--add-post-links-->
+                    </div><!--post-input-container-->
+                </div><!--write-post-container-->
+
+                <!------------POSTS CONTAINERS-------------->
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.jpg">
+                            <div>
+                                <p>Daniel Mota</p>
+                                <span>03 de Outubro de 2021, 21:21</span>
+                            </div>
+                        </div><!--user-profile-->
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div><!--post-row-->
+                    
+                    <p class="post-text">Inscreva-se no canal do youtube <span>@DanDev</span> e fique de olho em todas novidades!
+                        <a href="#">#DanDev</a> <a href="#">GameDeveloper</a>
+                    </p>
+                    <img src="images/profile-pic.jpg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png"> 760</div>
+                            <div><img src="images/comments.png"> 1234</div>
+                            <div><img src="images/share.png"> 244</div>
+                        </div><!--activity-icons-->
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.jpg"> <i class="fas fa-caret-down"></i>
+                        </div><!--post-profile-icon-->
+                    </div><!--post-row-->
+                </div><!--post-container-->
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/member-2.png">
+                            <div>
+                                <p>Antonio Aguado</p>
+                                <span>03 de Outubro de 2021, 21:15</span>
+                            </div>
+                        </div><!--user-profile-->
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div><!--post-row-->
+                    
+                    <p class="post-text">Gente, estou procurando jogadores para criar uma cidade comigo no <span>@Minecraft</span>.<a href="#">#Minecraft</a> <a href="#">CriarMundos</a>
+                    </p>
+                    <img src="images/feed-image-2.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png"> 222</div>
+                            <div><img src="images/comments.png"> 333</div>
+                            <div><img src="images/share.png"> 115</div>
+                        </div><!--activity-icons-->
+                        <div class="post-profile-icon">
+                            <img src="images/member-2.png"> <i class="fas fa-caret-down"></i>
+                        </div><!--post-profile-icon-->
+                    </div><!--post-row-->
+                </div><!--post-container-->
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <a href="profile.html"><img src="images/member-4.png"></a>
+                            <div>
+                                <p>Fred Moreno</p>
+                                <span>03 de Outubro de 2021, 21:00</span>
+                            </div>
+                        </div><!--user-profile-->
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div><!--post-row-->
+                    
+                    <p class="post-text">Olá amigos, estou desenvolvendo um game ótimo! <span>@Arma50</span>!<a href="#">#GameDev</a>
+                    </p>
+                    <img src="images/feed-image-3.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png"> 15</div>
+                            <div><img src="images/comments.png"> 12</div>
+                            <div><img src="images/share.png"> 3</div>
+                        </div><!--activity-icons-->
+                        <div class="post-profile-icon">
+                            <img src="images/member-4.png"> <i class="fas fa-caret-down"></i>
+                        </div><!--post-profile-icon-->
+                    </div><!--post-row-->
+                </div><!--post-container-->
+                <!------------POSTS CONTAINER END------------------>
+
+                <button type="button" class="load-more-btn">Carregar Mais</button>
+            </div><!--main-content end-->
+
+            <!------------------right-sidebar----------------->
+            <div class="right-sidebar">
+
+                <div class="sidebar-title">
+                    <h4>Eventos</h4>
+                    <a href="#"> Ver todos eventos</a>
+                </div><!--sidebar-title-->
+                <div class="event">
+                    <div class="left-event">
+                        <h3>18</h3>
+                        <span>Março</span>
+                    </div><!--left-event-->
+                    <div class="right-event">
+                        <h4>Games para Todos!</h4>
+                        <p><i class="fas fa-map-marker-alt"></i>Brasilia-DF</p>
+                        <a href="#">Mais informações</a>
+                    </div><!--right-event-->
+                </div><!--event-->
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>25</h3>
+                        <span>Abril</span>
+                    </div><!--left-event-->
+                    <div class="right-event">
+                        <h4>Intensivão Unity Engine</h4>
+                        <p><i class="fas fa-map-marker-alt"></i>Brasilia-DF</p>
+                        <a href="#">Mais informações</a>
+                    </div><!--right-event-->
+                </div><!--event-->
+                <div class="sidebar-title">
+                    <h4>Anúncios</h4>
+                    <a href="#"> Fechar</a>
+                </div><!--sidebar-title-->
+                <img src="images/advertisement.png" class="sidebar-ads">
+
+                <div class="sidebar-title">
+                    <h4>Conversas</h4>
+                    <a href="#"> Esconder chat</a>
+                </div><!--sidebar-title-->
+
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-1.png">
+                    </div><!--online-->
+                    <p>Joaquina Barbosa</p>
+                </div><!--online-list-->
+
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-2.png">
+                    </div><!--online-->
+                    <p>Antonio Aguado</p>
+                </div><!--online-list-->
+
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-3.png">
+                    </div><!--online-->
+                    <p>Mirian Pentecostal</p>
+                </div><!--online-list-->
+
+                <div class="online-list">
+                    <div class="online">
+                        <a href="profile.html"><img src="images/member-4.png"></a>
+                    </div><!--online-->
+                    <p>Fred Moreno</p>
+                </div><!--online-list-->
+                
+            </div><!--right-sidebar end-->
+
+        </div><!--container-->
+
+        <footer>
+            <p>Todos os direitos reservados 2021 - DanDev Youtube</p>
+        </footer>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/functions.js"></script>
+    </body>
+</html>
